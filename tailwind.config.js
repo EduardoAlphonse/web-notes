@@ -9,6 +9,9 @@ module.exports = {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
         heading: ["Raleway", ...defaultTheme.fontFamily.sans],
       },
+      screens: {
+        xs: "480px",
+      },
     },
   },
   plugins: [],
